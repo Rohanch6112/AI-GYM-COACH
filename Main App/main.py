@@ -2,6 +2,7 @@ import streamlit as st
 import os
 import time
 import pandas as pd
+from streamlit_webrtc import webrtc_streamer, WebRtcMode
 from services.auth.login_wall import render_login_wall
 from services.state.session_defaults import initial_session_defaults
 from services.config.workout_config import EXERCISE_OPTIONS
